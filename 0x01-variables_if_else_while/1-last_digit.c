@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
 
 /**
  * main - prints last digit of random number
@@ -18,9 +18,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	l = n % 10;
 
-	if ((n % 10 > 5)
+	if (l > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, l);
-	else if ((n % 10) < 6 && (n % 10) != 0)
+	else if (l < 6 && l != 0)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	else
 		printf("Last digit of %d is %d and is 0\n", n, l);
