@@ -1,10 +1,9 @@
-#include "holbeton.h"
-
+#include "holberton.h"
 /**
  * main - prints holberton without using printf.
  *
  * Return: Zero (0)
- **/
+ */
 int main(void)
 {
 	_putchar('H');
@@ -17,6 +16,5 @@ int main(void)
 	_putchar('o');
 	_putchar('n');
 	_putchar('\n');
-
 	return (0);
 }
