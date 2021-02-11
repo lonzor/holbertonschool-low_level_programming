@@ -5,7 +5,7 @@
  * @n: number of times an understcore should be printed
  * Return: void
  **/
-voi print_line(int n)
+void print_line(int n)
 {
 	int i;
 
