@@ -4,7 +4,7 @@
  * print_numbers - prints digits
  * Return: void
  **/
-void print_nubers(void)
+void print_numbers(void)
 {
 	char num;
 
