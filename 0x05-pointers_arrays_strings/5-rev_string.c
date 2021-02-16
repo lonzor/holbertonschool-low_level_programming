@@ -19,10 +19,8 @@ void rev_string(char *s)
 	while (rCount > fCount)
 	{
 		temp = s[fCount];
-		s[rCount] = s[rCount];
 		s[rCount] = temp;
 		rCount--;
 		fCount++;
 	}
-
 }
