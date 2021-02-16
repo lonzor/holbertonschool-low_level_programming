@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 /**
- * _puts - prints
- * @str: the string that will be printed
+ * _puts - prints to stdout
+ * @str: the string that prints
  * Return: void
  **/
 void _puts(char *str)
 {
 	while (*str)
-		_putchar(*str++)
+		_putchar(*str++);
 	_putchar('\n');
 }
