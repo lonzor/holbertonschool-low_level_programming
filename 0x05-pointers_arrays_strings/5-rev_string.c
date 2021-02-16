@@ -16,7 +16,6 @@ void rev_string(char *s)
 		rCount++;
 	}
 	rCount--;
-	
 	while (rCount > fCount)
 	{
 		temp = s[fCount];
