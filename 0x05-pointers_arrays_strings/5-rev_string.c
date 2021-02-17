@@ -7,18 +7,33 @@
  **/
 void rev_string(char *s)
 {
-	int rCount = 0;
-	int fCount = 0;
-	char temp;
+	int i;
+	int length;
+	char first;
+	char last;
 
-	while (s[rCount] != '\0')
-		rCount++;
-	rCount--;
-	while (rCount > fCount)
+	length = _strlen(s) - 1;
+	i = 0;
+	while (i < length)
 	{
-		temp = s[fCount];
-		s[rCount] = temp;
-		rCount--;
-		fCount++;
+		first = s[i];
+		last  = s[length];
+		s[i++];
+		s[length--] = first;
 	}
+}
+
+/**
+ * _strlen - returns string length
+ * @s: string
+ * Return: nothing
+ **/
+int _strlen(char *s)
+{
+	int num;
+
+	for (num = 0; *s != '\0'; s++)
+		num++;
+
+	return (num);
 }
