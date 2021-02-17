@@ -18,7 +18,7 @@ void rev_string(char *s)
 	{
 		first = s[i];
 		last  = s[length];
-		s[i++];
+		s[i++] = last;
 		s[length--] = first;
 	}
 }
