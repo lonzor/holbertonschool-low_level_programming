@@ -7,7 +7,7 @@
  * @n: how many elements that are in the array
  * Return: void
  **/
-void print_arrayyyy(int *a, int n)
+void print_array(int *a, int n)
 {
 	int i;
 
