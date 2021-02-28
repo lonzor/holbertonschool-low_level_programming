@@ -1,7 +1,3 @@
-!<arch>
-//                                              20        `
-static_functions.o/
-/0              1614472117  1000  1000  100664  5486      `
 #include "holberton.h"
 
 /**
