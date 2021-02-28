@@ -52,7 +52,7 @@ int _abs(int n)
 }
 
 /**
- * _isupper(int c) - looks to see if letter is uppercase
+ * _isupper - looks to see if letter is uppercase
  * @c: int that represents a letter
  * Return: 1 if c is upper case, and 0 if not
  **/
@@ -105,7 +105,7 @@ void _puts(char *str)
 }
 
 /**
- * *_strcpy - copies strings
+ * _strcpy - copies strings
  * @dest: destination
  * @src: source
  * Return: pointer
@@ -128,7 +128,7 @@ char *_strcpy(char *dest, char *src)
 int _atoi(char *s)
 
 /**
- * _strcat - concatenates two strings
+ * _strcat - concat two strings
  * @dest: the destination string
  * @src: the source string
  * Return: dest string pointer
@@ -175,7 +175,7 @@ char *_strncat(char *dest, char *src, int n)
 }
 
 /**
- * _strncpy - copies a string
+ * *_strncpy - copies a string
  * @dest: dest string
  * @src: source string
  * @n: chars
