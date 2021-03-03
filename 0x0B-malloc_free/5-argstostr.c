@@ -21,10 +21,13 @@ char *argstostr(int ac, char **av)
 	for (x = 0; x < ac; x++)
 	{
 		for (y = 0; av[x][y]; y++)
+		{
 			s++;
+		}
 		s++;
 	}
 	s++;
+
 	cat_str = malloc(s * sizeof(char));
 
 	if (cat_str == NULL)
@@ -36,7 +39,7 @@ char *argstostr(int ac, char **av)
 			cat_str[z] = av[x][y];
 				z++;
 		}
-		cat_str[z] = '\0';
-		return (cat_string);
 	}
+	cat_str[z] = '\0';
+	return (cat_str);
 }
