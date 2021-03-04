@@ -18,7 +18,7 @@ int _strlen(char *s)
 }
 
 /**
- * strint_nconcat - concats two strings using n chars
+ * string_nconcat - concats two strings using n chars
  * @s1: first string
  * @s2: second string
  * @n: number of chars for s2 to use
