@@ -6,7 +6,7 @@
  * @size: size of the array of the hash table
  * Return: index at the key/value pair
  **/
-unsigned long int key_index(const unsigned char *key, unsigned long int size);
+unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
 	unsigned long int kv_index;
 
