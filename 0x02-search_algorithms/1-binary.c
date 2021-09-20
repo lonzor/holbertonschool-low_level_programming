@@ -19,7 +19,7 @@ int binary_search(int *array, size_t size, int value)
 	next = size - 1;
 	print_arr(array, prev, size);
 
-	while(prev < next)
+	while (prev < next)
 	{
 		prev = curr + 1;
 		if (array[curr] < value)
@@ -44,9 +44,9 @@ int binary_search(int *array, size_t size, int value)
  * @position: idx to starting printing
  * @size: number of elements in array
  */
-void print_array(int *array, size_t position, size_t size)
+void print_arr(int *array, size_t position, size_t size)
 {
-	size_t = idx;
+	size_t idx;
 
 	printf("Searching in array: ");
 
