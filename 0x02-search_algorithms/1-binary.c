@@ -21,7 +21,7 @@ int binary_search(int *array, size_t size, int value)
 
 	while (prev < next)
 	{
-		prev = curr + 1;
+		curr = (prev + next) / 2;
 		if (array[curr] < value)
 		{
 			prev = curr + 1;
